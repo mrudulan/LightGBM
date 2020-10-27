@@ -41,7 +41,7 @@
             "metadata": {
                 "description": "Name of job."
             },
-            "defaultValue": "trainlightgbm"
+            "defaultValue": "trainlightgbmonaml"
         },
         "keyVaultName": {
             "defaultValue": "[concat('kva', uniqueString(parameters('workspaceName')))]",

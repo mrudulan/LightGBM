@@ -36,13 +36,6 @@
                 "description": "Optional : Provide JSON object with 'key,value' pairs to add as tags on dataset. Example- {\"sampleTag1\": \"tagValue1\", \"sampleTag2\": \"tagValue2\"}"
             }
         },
-        "codeAssetName": {
-            "type": "string",
-            "defaultValue": "a6aeadf2-cb85-4331-a2b9-cc65e6ea510e",
-            "metadata": {
-                "description": "Name of code asset. Must be a Guid."
-            }
-        },
         "jobName": {
             "type": "string",
             "metadata": {
@@ -89,9 +82,7 @@
     "variables": {
         "storageAccountResourceId": "[resourceId('Microsoft.Storage/storageAccounts', parameters('storageAccountName'))]",
         "keyVaultResourceId": "[resourceId('Microsoft.KeyVault/vaults', parameters('keyVaultName'))]",
-        "appInsightsResourceId": "[resourceId('Microsoft.Insights/components', parameters('applicationInsightsName'))]",
-        "codeVersionResourceId": "[resourceId('Microsoft.MachineLearningServices/workspaces/codes/versions', parameters('workspaceName'), parameters('codeAssetName'), '1')]",
-        "workspaceResourceId": "[resourceId('Microsoft.MachineLearningServices/workspaces', parameters('workspaceName'))]"
+        "appInsightsResourceId": "[resourceId('Microsoft.Insights/components', parameters('applicationInsightsName'))]"
     },
     "resources": [
         {

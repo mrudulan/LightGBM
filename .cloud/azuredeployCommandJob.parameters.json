@@ -5,8 +5,8 @@
         "Command": {
             "value": "python train.py"
         },
-        "jobName": {
-            "value": "test_1"
+        "Environment": {
+            "value": "AzureML-Minimal"
         },
         "computeName": {
             "value": "cpucluster"

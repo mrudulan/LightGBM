@@ -187,7 +187,7 @@
             ],
             "properties": {
                 "jobType": "Command",
-                "environmentId": "[concat('/subscriptions/', subscription().subscriptionId, '/resourceGroups/', resourceGroup().name, '/providers/Microsoft.MachineLearningServices/Environments/', parameters('Environment'))]",
+                "environmentId": "/subscriptions/5f08d643-1910-4a38-a7c7-84a39d4f42e0/resourceGroups/mnarkdev/providers/Microsoft.MachineLearningServices/workspaces/mnarkdev2/environments/AzureML-Minimal",
                 "computeBinding": {
                     "computeId": "[parameters('computeName')]",
                     "nodeCount": "1"

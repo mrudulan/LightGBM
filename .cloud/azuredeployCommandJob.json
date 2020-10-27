@@ -183,7 +183,6 @@
             "location": "[parameters('location')]",
             "dependsOn": [
                 "[parameters('workspaceName')]",
-                "[variables('codeVersionResourceId')]",
                 "[parameters('computeName')]"
             ],
             "properties": {

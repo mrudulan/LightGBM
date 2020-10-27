@@ -38,7 +38,7 @@
         },
         "codeAssetName": {
             "type": "string",
-            "defaultValue": "[newGuid()]",
+            "defaultValue": "a6aeadf2-cb85-4331-a2b9-cc65e6ea510e",
             "metadata": {
                 "description": "Name of code asset. Must be a Guid."
             }
@@ -183,22 +183,6 @@
                         "maxNodeCount": "4"
                     }
                 }
-            }
-        },
-        {
-            "type": "Microsoft.MachineLearningServices/workspaces/codes/versions",
-            "name": "[concat(parameters('workspaceName'), '/', parameters('codeAssetName'), '/', '1')]",
-            "apiVersion": "2020-09-01-preview",
-            "dependsOn": [
-                "[parameters('workspaceName')]"
-            ],
-            "properties": {
-                "assetPaths": [
-                    {
-                        "path": "test",
-                        "isDirectory": true
-                    }
-                ]
             }
         },
         {

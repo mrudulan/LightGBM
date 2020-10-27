@@ -3,7 +3,7 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "Command": {
-            "value": "python train.py"
+            "value": "python examples/python-guide/advanced_example.py --lr 0.01 --feature_fraction 0.7 --bagging_fraction 0.6"
         },
         "Environment": {
             "value": "AzureML-Minimal"

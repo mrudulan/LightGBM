@@ -8,8 +8,8 @@
         "Environment": {
             "value": "AzureML-Minimal"
         },
-        "computeName": {
-            "value": "cpucluster"
+        "computeVmSize": {
+            "value": "Standard_DS3_V2"
         },
         "tags": {
             "value": {}

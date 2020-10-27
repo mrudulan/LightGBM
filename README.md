@@ -33,6 +33,32 @@ Get Started and Documentation
 
 Our primary documentation is at https://lightgbm.readthedocs.io/ and is generated from this repository. If you are new to LightGBM, follow [the installation instructions](https://lightgbm.readthedocs.io/en/latest/Installation-Guide.html) on that site.
 
+# Azure Machine Learning Service 
+[Azure Machine Learning service](https://azure.microsoft.com/en-us/services/machine-learning-service/) provides a cloud-based environment to prep data, train, test, deploy, manage, and track machine learning models. This service fully supports open-source technologies such as PyTorch, TensorFlow, and scikit-learn and can be used for any kind of machine learning, from classical ML to deep learning, supervised and unsupervised learning.
+
+Learn how Azure Machine Learning can help you streamline the building, training, and deployment of machine learning models. Start free today.
+
+# Getting Started
+
+### Train a LightGBM model
+
+[![Train On Azure](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/deploytoazure.svg?sanitize=true)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fmrudulan%2FDevPlatv2Template%2Fmaster%2F.cloud%2FazuredeployCommandJob.json)
+[![Visualize](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/visualizebutton.svg?sanitize=true)](http://armviz.io/#/?load=https://raw.githubusercontent.com/mrudulan/DevPlatv2Template/master/.cloud/azuredeployCommandJob.json)
+
+### Deploy a LightGBM model as an endpoint (Coming soon!!! :))
+
+[![Train On Azure](https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/1-CONTRIBUTION-GUIDE/images/deploytoazure.svg?sanitize=true)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fmrudulan%2FDevPlatv2Template%2Fmaster%2F.cloud%2FazuredeployCommandJob.json)
+
+
+This ARM template creates a code job in Azure Machine Learning workspace.
+
+If you are new to Azure Machine Learning, see:
+
+- [Azure Machine Learning service](https://azure.microsoft.com/services/machine-learning-service/)
+- [Azure Machine Learning documentation](https://docs.microsoft.com/azure/machine-learning/)
+- [Azure Machine Learning template reference](https://docs.microsoft.com/azure/templates/microsoft.machinelearningservices/allversions)
+- [Quickstart templates](https://azure.microsoft.com/resources/templates/)
+
 Next you may want to read:
 
 - [**Examples**](https://github.com/microsoft/LightGBM/tree/master/examples) showing command line usage of common tasks.
